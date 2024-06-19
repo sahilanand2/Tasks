@@ -35,7 +35,7 @@ const TaskList: React.FC<TaskListProps> = ({ selectedUserId }) => {
 
   const handleAddNewItem = (taskId: string) => {
     if (!newItemText.trim()) {
-      return; // Prevent adding empty items
+      return; 
     }
 
     const newItem = {

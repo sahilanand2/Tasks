@@ -1,4 +1,3 @@
-// src/pages/UserPage.tsx
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { addUser } from '../features/users/usersSlice';
