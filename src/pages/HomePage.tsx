@@ -1,11 +1,10 @@
-// src/pages/HomePage.tsx
 import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import TaskForm from '../components/TaskForm';
 import TaskList from '../components/TaskList';
 import { useSelector } from 'react-redux';
 import { RootState } from '../store';
-import { Box, Button, Modal, Paper, Typography } from '@mui/material';
+import { Box, Button, Modal, Paper } from '@mui/material';
 import './styles.css';
 import ImageWithMarkers from '../components/ImageWithMarkers';
 
@@ -39,7 +38,7 @@ const HomePage: React.FC = () => {
                 flexDirection: 'column',
                 alignItems: 'center',
                 justifyContent: 'center',
-                minHeight: '40vh', // Ensure it fills the entire viewport height
+                minHeight: '40vh',
               }}
             >
               <Paper sx={{ p: 3, mb: 3, width: '100%', textAlign: 'center' }}>
